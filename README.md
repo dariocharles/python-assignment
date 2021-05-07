@@ -20,12 +20,12 @@ This assignment is a commandline-based program that calculates the grades of the
 
 ### File Structure
 
-▪ py-assignment.py
+▪ py-assignment1.py
 ▪ README.md
 
 ### Testing
 
-While coding, I tested my frequently to solve any bugs before continuing with my code.
+While coding, I tested frequently to solve any bugs before continuing with my code.
 
 ### Acknowledgements
 
