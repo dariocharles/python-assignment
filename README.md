@@ -20,8 +20,9 @@ This assignment is a commandline-based program that calculates the grades of the
 
 ### File Structure
 
-▪ py-assignment1.py
-▪ README.md
+
+
+▪ py-assignment1.py                                                                                                                                                              ▪ README.md
 
 ### Testing
 
