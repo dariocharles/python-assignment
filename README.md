@@ -1,7 +1,5 @@
 # Python Assignment
 
-## [View Live](https://dariocharles.github.io/python-assignment/)
-
 ## Canadian Business College - Full Stack Software Development
 
 ### This assignment demonstrates my skills in:
