@@ -1,37 +1,43 @@
-# Part 1 - Getting user input
+#Python Fundamentals Assignment
+print("-------------Python Fundamentals Assignment-------------")
 
-num_of_courses = input("How many courses did you finish?")
-num_of_course = int(num_of_courses)
-# Testing
-# print(num_of_course)
+# Part 1: User Input
+print("How many courses did you complete?")
+courses_input = input("Please enter the number of course complete: ")
+num_of_courses = int(courses_input)
+#  Testing
+"""print(type(num_of_courses))"""
 
+# Declare an empty array and append user input
 course_marks = []
 
-# Appending the values entered into the empty list
 i = 1
-while (i <= num_of_course):
-    course_marks.append(int(input(f"Enter your mark for course {i}: ")))
+while (i <= num_of_courses):
+    course_marks.append(float(input(f"Enter your mark for course {i}: ")))
     i += 1
 
-# For loop here for printing the course marks outside the list
+# Output the course marks outside the list
 for x in course_marks:
     print(x)
 
-
-
-# Part 2 - Find the Average
+# Part 2: Find The Average. 
 sum = 0
 for i in range(len(course_marks)):
     sum += course_marks[i]
 # Testing for the sum
-# print(sum)
+"""print(sum)"""
 
-# 2 - after the loop,  
-average = sum / num_of_course
-print(f"Your average for your 5 courses is: {average}")
+# Alternative
+"""
+total = 0
+ for mark in course_marks:
+     total += mark
+"""
 
+average = sum / num_of_courses
+print(f"Your average for your {num_of_courses} courses is: {average}")
 
-# Part 3 - print the grade using if condition
+# Part 3: Output The Letter Grade
 if (average >= 90 and average <=100):
     print("Your grade is A+")
 elif (average >= 80 and average <=89):
