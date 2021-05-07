@@ -16,7 +16,7 @@ This assignment is a commandline-based program that calculates the grades of the
 
 ## Built With
 
-![Python](https://docs.python.org/3/tutorial/)
+[Python](https://docs.python.org/3/tutorial/)
 
 ## Getting Started
 
@@ -31,5 +31,5 @@ While coding, I tested my frequently to solve any bugs before continuing with my
 
 ## Acknowledgements
 
-This assignment is a part of the Full Stack Software Development program at the Canadian Business College(CBC). I am grateful for the support I received from my instructor at CBC,[Anmar Jarjees](https://github.com/anmarjarjees), in learning the python material to complete this assignment.
+This assignment is a part of the Full Stack Software Development program at the Canadian Business College(CBC). I am grateful for the support I received from my instructor at CBC, [Anmar Jarjees](https://github.com/anmarjarjees), in learning the python material to complete this assignment.
 
